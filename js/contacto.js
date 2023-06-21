@@ -3,9 +3,9 @@ $(document).ready(function(){
         event.preventDefault(); // prevent reload
         
         var formData = new FormData(this);
-        formData.append('service_id', 'service_y9yfz29');
-        formData.append('template_id', 'template_6yp9hpp');
-        formData.append('user_id', 'n_nuNvLuEstexpPbQ');
+        formData.append('service_id', 'service_g30frxw');
+        formData.append('template_id', 'template_zx3o91m');
+        formData.append('user_id', 'Y19N8z0zigi25no3M'); // TODO: PUBLIC KEY
      
         $.ajax('https://api.emailjs.com/api/v1.0/email/send-form', {
             type: 'POST',

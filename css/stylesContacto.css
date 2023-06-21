@@ -8,7 +8,7 @@
 
 :root{
     --colorPrimary: #1a5dd0;
-    --colorSecondary: #1f9dba;
+    --colorSecondary: #000000;
     --colorActive:rgb(158, 219, 211);
 }
 
@@ -192,12 +192,12 @@ header .boton{
 
 .card:nth-child(1){
     border-radius: 10px 0px 0px 0px ;
-    border-right: 1px dashed #141d2c;
+    border-right: 1px dashed #ff0000;
 }
 
 .card:nth-child(3){
     border-radius: 0px 10px 0px 0px ;
-    border-left: 1px dashed #141d2c;
+    border-left: 1px dashed #ff0000;
 }
 
 
