@@ -8,7 +8,7 @@
 
 :root{
     --colorPrimary: #1e6df7;
-    --colorSecondary: #000000;
+    --colorSecondary: #1f9dba;
     --colorActive:rgb(158, 219, 211);
 }
 
@@ -188,16 +188,20 @@ header .boton{
     background-color: var(--colorSecondary);
     margin: 0px;
     padding: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .card:nth-child(1){
     border-radius: 10px 0px 0px 0px ;
-    border-right: 1px dashed #ff0000;
+    border-right: 1px dashed #f5efef;
 }
 
 .card:nth-child(3){
     border-radius: 0px 10px 0px 0px ;
-    border-left: 1px dashed #ff0000;
+    border-left: 1px dashed #f8f4f4;
 }
 
 
