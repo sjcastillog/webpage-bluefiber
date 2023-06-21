@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#1a5dd0">
+    <meta name="title" content="BLUEF!BER">
+    <meta name="description" content="Empresa Proveedora de Internet">
+    <link rel="stylesheet" href="css/stylesCapacidad.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,400&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/logo.ico" type="image/x-icon">
+    <title>BLUEF!BER</title>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="nav_container">
+                <div class="nav_logo">
+                    <img src="images/logoWhite.png" alt="BLUEF!BER" class="nav_logo">
+                </div>
+                <label for="menu" class="nav_label">
+                    <img src="images/menu.svg" alt="BLUEF!BER" class="nav_img" id="menuIcon">
+                </label>
+                <input type="checkbox" id="menu" class="nav_input">
+                <div class="nav_menu">
+                    <a href="index" class="nav_item">Inicio</a>
+                    <a href="capacidad" class="nav_item active">Capacidad</a>
+                    <a href="planes" class="nav_item">Planes</a>
+                    <a href="contacto" class="nav_item">Contacto</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="container">
+            <h2 class="titulos">CAPACIDAD DE NODO DURÁN</h2>
+            <img src="images/consumo.png" alt="BLUEF!BER" class="image">
+        </section>
+        
+        <canvas class="background"></canvas>
+         
+    </main>
+    <footer>
+        <div class="footer__social">
+            <a href="https://facebook.com/bluefiber/" target="_blank" class="footer__icons"><img src="images/facebook.svg" id='facebook1' class="footer__img" alt="BLUEF!BER"></a>
+            <a href="https://wa.me/593991002471" target="_blank"><img src="images/whatsapp.svg" class="footer__img" id='whatsapp1' alt="BLUEF!BER"></a>
+            <a href="https://www.twitter.com/bluefiber/" target="_blank"><img src="images/twitter.svg" class="footer__img" id='twitter1' alt="BLUEF!BER"></a>
+            <a href="https://www.instagram.com/bluefiber/" target="_blank"><img src="images/instagram.svg" class="footer__img" id='instagram1' alt="BLUEF!BER"></a> 
+        </div>
+        <h2 class="titulo-final">&copy; BLUEF!BER </h2>
+    </footer>
+    
+    <script src="js/particles.min.js"></script>
+    <script>
+        window.onload = function() {
+            Particles.
+            init
+            ({
+                selector: 
+            '.background'
+            });
+        };
+    </script>
+</body>
+</html>
