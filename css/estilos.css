@@ -663,8 +663,8 @@ footer{
 
 .contenedorT{
     margin: auto;
-    padding:30px;
-    width: 70%;
+    padding:20px;
+    width: 78%;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -689,6 +689,7 @@ footer{
     position: relative;
     background: #fff;
     overflow: hidden;
+    text-decoration: none;
 }
 
 .tabla_{
@@ -708,6 +709,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
 }
 
 .tabla_ > .conTabla_ > h3{
@@ -854,6 +856,40 @@ footer{
     .servicio-ind img{
         width: 90%;
     }
+
+    .tabla{
+        width: 60%;
+    }
+
+    .tabla_ > img{
+        width: 200px;
+    }
+
+    .tabla_ {
+        width: 60%;
+        text-align: center;
+    }
+
+    .velocidad {
+        width: 28%;
+        text-align: left;
+    }
+
+    .velocidad > h3{
+        font-size: 18px;
+    }
+
+    .velocidad > h6{
+        font-size: 10px;
+    }
+
+    .nav_logo{
+        width: 100px;
+        height: 35px;
+    }
+
+
+    
 }
 
 @media screen and (max-width:628px){
@@ -925,7 +961,7 @@ footer{
     }
 
     .nav_logo{
-        width: 55px;
+        width: 85px;
         height: 35px;
         object-fit: cover;
     }
@@ -941,6 +977,12 @@ footer{
     .clientes_{
         min-height: 1700px;
         position: inherit;
+    }
+
+    .tabla_ {
+        width: 80%;
+        text-align: center;
+        font-size: 12px;
     }
 
 }

@@ -242,6 +242,11 @@ header .boton{
     .tabla{
         width: 40%;
     }
+
+    .nav_logo{
+        width: 100px;
+        height: 35px;
+    }
 }
 
 @media screen and (max-width:660px){
@@ -290,7 +295,7 @@ header .boton{
     }
 
     .nav_logo{
-        width: 55px;
+        width: 85px;
         height: 35px;
         object-fit: cover;
     }
